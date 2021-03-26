@@ -1,0 +1,141 @@
+.genre-title {
+  font-size: 20pt;
+  margin: 50px 0px;
+}
+/* 아티스트 파트 */
+.Popular-artist {
+  font-size: 14pt;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.Popular-artist-direct {
+  width: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.Popular-artist-direct button {
+  background: none;
+  border: none;
+}
+
+.Popular-artist-direct .before,
+.after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Popular-artist-box {
+  display: flex;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 1260px;
+}
+.Popular-artist-info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.artist-info-items:nth-child(1) {
+  background-image: url(ilbuni.png);
+  width: 130px;
+  height: 130px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: relative;
+}
+.artist-info-items:nth-child(1) button {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  z-index: 1;
+  right: 0.3em;
+  bottom: 0.3em;
+
+  height: 40px;
+  border-radius: 50%;
+}
+.artist-info-items:nth-child(1) svg {
+  margin-right: -5px;
+}
+.artist-info-items:nth-child(2) {
+  margin: 10px 0px;
+  text-align: center;
+}
+
+/* 최근앨범 파트 */
+.recently-album {
+  font-size: 14pt;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.recently-album-direct {
+  width: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.recently-album-direct button {
+  background: none;
+  border: none;
+}
+
+.recently-album-direct .before,
+.after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recently-album-box {
+  display: flex;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 1260px;
+}
+
+.recently-album-info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.album-info-items:nth-child(1) {
+  background-image: url(ilbuni.png);
+  width: 180px;
+  height: 180px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  position: relative;
+}
+.album-info-items:nth-child(1) button {
+  border: none;
+  background: none;
+  position: absolute;
+  z-index: 1;
+  right: 0.3em;
+  bottom: 0.3em;
+  height: 50px;
+  border-radius: 50%;
+}
+.album-info-items:nth-child(1) svg {
+  margin-right: -5px;
+}
+.album-info-items:nth-child(2) {
+  margin: 10px 0px;
+}
+.album-info-items:nth-child(3) {
+  margin-bottom: 20px;
+  font-size: 10pt;
+  color: gray;
+}

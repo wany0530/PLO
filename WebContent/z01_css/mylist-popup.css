@@ -1,0 +1,140 @@
+.mylistInput{
+    background: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mylistinput-insert{
+	cursor: pointer;
+}
+.mylistInput-content{
+    background: white;
+    width: 450px;
+    padding: 2em;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.mylistInput-text{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.mylistInput-text span{
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+.close{
+    background:rgba(0, 0, 0, 0);
+    border: none;
+}
+.close:focus{
+    border: none;
+    outline: none;
+}
+.inputbox{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+}
+.addicons{
+    width: 14%;
+    height: 80%;
+    margin-left: 3px;
+    background: whitesmoke;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addtext{
+    margin-left: 15px;
+    color: orange;
+}
+.list-image{
+    width: 14%;
+    height: 80%;
+    margin-left: 3px;
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.list-info input{
+	border:none;
+	cursor: pointer;
+	margin-left: -5px;
+	background:none;
+}
+.list-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+.list-info-cnt{
+    font-size: 10pt;
+    margin-top: 4px;
+    color: lightgray;
+}
+.list-info-box{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    cursor: pointer;
+}
+.mylistadd-box{
+    width: 100%;
+    display: none;
+    margin-top: 30px;
+    flex-direction: column;
+    border-bottom: 1px solid lightgray;
+   
+}
+.mylistadd-text{
+    width: 100%;
+    display:flex;
+    border-bottom: 1px solid gray;
+}
+.mylistadd-text input{
+    font-weight: bold;
+    height: 20px;
+    width: 93%;
+    border: none;
+    font-size: 10pt;
+    margin-bottom: 2px;
+}
+.mylistadd-text button{
+    background: none;
+    border: none;
+}
+input:focus{
+    border:none;
+    outline: none;
+}
+button:focus{
+    border:none;
+    outline: none;
+}
+.mylistadd-button{
+    text-align: right;
+}
+.mylistadd-button button{
+    background: none;
+    border: none;
+    font-size: 12pt;
+    padding: 10px;
+}

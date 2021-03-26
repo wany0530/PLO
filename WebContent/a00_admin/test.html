@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+    td {
+    	box-sizing: border-box;
+    	height: 50px;
+    	width: 50px;
+    	border: 1px solid gold;
+    	overflow: scroll;
+    	
+		word-break:break-all;
+		table-layout:auto;
+    }
+ 
+    </style>
+</head>
+<body>
+	<form method="get">
+	<select name="select" id="select">
+		<option value="1">아이유</option>
+		<option value="2">동방신기</option>
+		<option>ㄴ</option>
+		<option>ㅁ</option>
+	</select>
+	<br>
+	<br>
+	<br>
+	
+	<textarea name="" rows="" cols="">asdfasdfasadfsadfsafsadfsdfdsfsd</textarea>
+	<input type="submit">
+	</form>
+	<input type="button" onclick="test()"/>
+	
+	
+	
+	<table>
+		<tr>
+		<td>
+			asdfsdfjlasfsjfakjfk f akjf adfdssafsadfsdfsfak jdfkjsdfsdf
+		</td>
+		</tr>
+	
+	</table>
+	<script>
+   		function test(){
+   			console.log(123);
+   			var selObj = document.getElementById("select");
+   			selObj.value="2";
+   			console.log(selObj);
+   		}
+	</script>
+</body>
+</html>

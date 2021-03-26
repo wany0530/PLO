@@ -1,0 +1,52 @@
+table {
+  /* border-collapse: separate; */
+  border-top: 1px solid gray;
+  font-size: 10pt;
+  font-weight: lighter;
+  text-align: center;
+}
+table thead {
+  color: gray;
+}
+table tbody {
+  font-weight: bold;
+}
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+tbody button {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+.tableAlbum {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.tableheaderchild:nth-child(3) {
+  display: flex;
+  width: 100%;
+}
+.title_album {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.chart-more {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  height: 32px;
+  font-size: 12pt;
+  padding: 3px 20px;
+}
+
+.chart-more:hover {
+  border: 1px solid orange;
+  color: #FF8533;
+}

@@ -1,0 +1,249 @@
+@charset "UTF-8";
+
+#app {
+	padding-bottom: 111px;
+}
+#wrap {
+    width: 100%;
+    min-width: 955px;
+    max-width: 1600px;
+    height: 100%;
+    margin: 0 auto;
+}
+.section_detail {
+    height: 100%;
+/*    padding: 95px 80px 40px;*/
+    padding: 0px 80px 40px;
+    background-color: #fff;
+}
+.section_detail button {
+	outline: none;
+    background-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    padding:0;
+    border:none;
+}
+.section_detail a {
+	color: #333;
+}
+.section_inner {
+    max-width: 1600px;
+    min-width: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.bagde_area {
+    position: relative;
+    display: table;
+    width: 100%;
+    padding-left: 50px;
+    box-sizing: border-box;
+    table-layout: fixed;
+}
+.album_thumbnail {
+    position: relative;
+    height: 240px;
+    width: 240px;
+    margin-bottom: 15px;
+    padding-top: 14px;
+    line-height: 175px;
+    text-align: center;
+    background: transparent;
+    display: table-cell;
+}
+.album_thumbnail .link_thumbnail {
+    z-index: 3;
+    position: relative;
+    display: block;
+    height: 240px;
+    width: 240px;
+    border-radius: 6px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f8f9fa;
+}
+.album_thumbnail .link_thumbnail:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    border: 1px solid rgba(0,0,0,.05);
+    border-radius: 6px;
+    background-color: rgba(0,0,0,.06);
+}
+.album_thumbnail .link_thumbnail img {
+    vertical-align: top;
+    border-radius: 6px;
+}
+.album_thumbnail .btn_thumbnail_play {
+    z-index: 3;
+    position: absolute;
+    right: 11px;
+    bottom: 15px;
+    color: transparent;
+    text-indent: 100%;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+    background-image: url(../z00_imgs/button_img.png);
+    background-position: -405px -471px;
+    width: 37px;
+    height: 37px;
+}
+.album_thumbnail .btn_thumbnail_play:hover {
+	background-image: url(../z00_imgs/button_img.png);
+	background-position: -268px -225px;
+}
+.badge_track_info {
+    position: relative;
+    z-index: 10;
+    padding-top: 14px;
+    display: table-cell;
+    vertical-align: top;
+    padding-right: 50px;
+    padding-left: 35px;
+}
+.badge_track_info .info_area {
+    position: relative;
+    width: auto;
+    padding-top: 12px;
+    padding-right: 30px;
+}
+.badge_track_info .info_area a:hover {
+	color: #FF8533;
+}
+.badge_track_info .title {
+    display: block;
+/*  overflow: hidden; */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 700;
+    padding-top: 20px;
+    font-size: 28px;
+}
+.badge_track_info .artist {
+    display: block;
+/*    overflow: hidden;*/
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-top: 14px;
+    font-size: 16px;
+}
+.badge_track_info .album {
+    display: block;
+/*    overflow: hidden;*/
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-top: 14px;
+    font-size: 16px;
+}
+.badge_track_info .info_area:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.badge_track_info .util_area {
+    clear: both;
+    position: absolute;
+	bottom: 16px;
+    left: 23px;
+}
+.badge_track_info .util_area button[class^=btn_] {
+    margin-right: 0;
+}
+.badge_track_info .btn_add_list {
+    background-image: url(../z00_imgs/button_img.png);
+    background-position: -437px -368px;
+    width: 41px;
+    height: 41px;
+    color: transparent;
+    text-indent: 100%;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.badge_track_info .btn_add_list:hover {
+    background-image: url(../z00_imgs/button_img.png);
+    background-position: -437px -322px;
+    width: 41px;
+    height: 41px;
+}
+.badge_track_info .btn_add_playlist {
+    background-image: url(../z00_imgs/button_img.png);
+    background-position: -437px -46px;
+    width: 41px;
+    height: 41px;
+    color: transparent;
+    text-indent: 100%;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.badge_track_info .btn_add_playlist:hover {
+	background-image: url(../z00_imgs/button_img.png);
+    background-position: -437px 0px;
+    width: 41px;
+    height: 41px;
+}
+.badge_track_info .btn_like {
+    background-image: url(../z00_imgs/button_img.png);
+    background-position: -381px -240px;
+    width: 41px;
+    height: 41px;
+    color: transparent;
+    text-indent: 100%;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.badge_track_info .btn_like:hover {
+    background-image: url(../z00_imgs/button_img.png);
+    background-position: -381px -194px;
+    width: 41px;
+    height: 41px;
+}
+.badge_track_info .btn_like.active, .badge_track_info .btn_like.active:hover {
+    background-image: url(../z00_imgs/button_img.png);
+    background-position: -381px -332px;
+    width: 41px;
+    height: 41px;
+}
+.section_content_wrap {
+    position: relative;
+    padding: 70px 0 0 0;
+}
+.music_detail_info {
+	padding-left: 15px;
+}
+.music_detail_info .info_txt {
+  /*  overflow: hidden;*/
+}
+.music_detail_info .info_txt dl {
+    margin-top: -20px;
+    font-size: 15px;
+}
+.music_detail_info .info_txt dl dt {
+    float: left;
+    width: 48px;
+    padding-top: 20px;
+    font-weight: 700;
+}
+.music_detail_info .info_txt dl dd {
+    margin-left: 48px;
+    padding-top: 21px;
+}
+.lyrics {
+    margin: 0;
+    padding-top: 40px;
+    font-size: 15px;
+    line-height: 27px;
+    font-family: NBG,HelveticaNeue-Light,AppleSDGothicNeo-Light,sans-serif;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}

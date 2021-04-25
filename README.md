@@ -78,4 +78,13 @@
 
 #### 체크박스
 * 음원 체크시 modal창을 이용해 [체크해제/재생/재생목록/내 리스트] 박스 출력
-* 기능은 동일. 
+* 기능 위와 동일
+
+![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/77144929/116000125-f1786000-a629-11eb-845d-b2225bdb4813.gif)
+
+
+### 장르 상세페이지
+* 하단에 장르 박스 클릭시 해당 장르 상세페이지 이동.
+* 장르별 인기 앨범 및 인기 아티스트 출력.
+
+![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/77144929/116000209-369c9200-a62a-11eb-90b8-7f68b5271178.gif)

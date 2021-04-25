@@ -51,7 +51,7 @@
 * 정상적인 음원 재생시간이 설정되어 재생.
 * 자동으로 재생목록에 추가
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/77144929/115999436-ab6dcd00-a626-11eb-951c-1d43509c3300.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/77144929/115999569-4b2b5b00-a627-11eb-91b4-6a06147f8344.gif)
 
 ### 재생목록
 * 재생 되지 않고, 재생목록에만 해당 음원 추가.

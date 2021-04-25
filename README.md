@@ -83,7 +83,7 @@
 ![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/77144929/116000125-f1786000-a629-11eb-845d-b2225bdb4813.gif)
 
 
-### 장르 상세페이지
+#### 장르 상세페이지
 * 하단에 장르 박스 클릭시 해당 장르 상세페이지 이동.
 * 장르별 인기 앨범 및 인기 아티스트 출력.
 

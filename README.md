@@ -22,7 +22,7 @@
 
 #### 데이터 베이스
 
->총 16개의 테이블로 구성
+> 총 16개의 테이블로 구성
 
 ![image](https://user-images.githubusercontent.com/77144929/115993180-9e43e480-a60c-11eb-857e-d2c171ce193c.png)
 
